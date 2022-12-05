@@ -1,0 +1,156 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Lachaise Assignment
+% LaTeX Template
+% Version 1.0 (26/6/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Marion Lachaise & François Févotte
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+\input{structure.tex} % Include the file specifying the document structure and custom commands
+
+%----------------------------------------------------------------------------------------
+%	ASSIGNMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Storymap Proposal - Housing Affordability In Austria} % Title of the assignment
+
+\author{Zarre Dominic\\ \texttt{dominic.zarre@fh-kaernten.at}} % Author name and email address
+
+\date{\small Fachhochschule Kärnten | Applied Datascience | Data Visualization II --- \today} % University, school and/or department name(s) and a date
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the title
+
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\section*{Introduction \& Background} % Unnumbered section
+
+\noindent According to the Property Index study 2022 of Deliotte, home ownership in Austria is increasingly becoming a luxury good. \cite{Standard}
+
+\say{Since the end of 2020, residential prices in Austria have risen by
+double digits, most recently by more than ten percent in the end
+of 2021. These prices are fuelled by the highest inflation since the
+early 1980s and negative real interest rates on bonds.} \cite{Deliotte}
+
+\noindent With all this in mind the goal of this Storymap to analyse the housing statistics of Austria to give an overview on how expensive it is to buy or build your own home. 
+Additionally rental prices will be analysed to show alternatives to home ownership in Austria. 
+
+
+%----------------------------------------------------------------------------------------
+%	PROBLEM 1
+%----------------------------------------------------------------------------------------
+
+\section*{Questions That Will Be Answered By The Storymap} % Numbered section
+
+
+%------------------------------------------------
+% Numbered question, with subquestions in an enumerate environment
+\begin{question}
+	How many people already live in their own home?
+\end{question}
+\begin{question}
+	In order to build a home you first need a piece of land. How does the land price differentiate in certain parts of Austria?
+\end{question}
+\begin{question}
+	How does the housing permit activity look like through the years?
+\end{question}
+\begin{question}
+	How is the development of the house pricing index over the last years?
+\end{question}
+\begin{question}
+	How does the rental price look like through Austria?
+\end{question}
+\begin{question}
+	How much of their total income are Austrians spending on living costs?
+\end{question}
+	
+%------------------------------------------------
+
+\section*{Graphs That Will Be Used}
+\noindent Overall maps that will be used fall in the category of choropleth maps that show certian values through Austria, if it is possible I would like to animate the choropleth maps through time. Additionly I will use Python to create certain graphs. 
+Also I plan to make a cartogram for the rental price in Austria.
+
+
+\section*{Data Sources}
+
+	\noindent \href{https://www.statistik.at}{\textit{https://www.statistik.at}}
+	\newline
+	\href{https://www.statistik.at/fileadmin/publications/Wohnen-2021.pdf}{\textit{https://www.statistik.at/fileadmin/publications/Wohnen-2021.pdf}}
+	\newline
+	\href{https://www.bodenpreise.at/}{\textit{https://www.bodenpreise.at}}
+
+
+\section*{9 Steps I Will Use To Make A Good Storymap}
+
+\subsection*{Start With A Bang}
+\noindent Here I would use the headline from Standard: 
+
+\say{According to the Property Index study 2022 of Deliotte , home ownership in Austria is increasingly becoming a luxury good.} \cite{Standard}
+
+
+\subsection*{Add A Hero}
+\noindent Here I would introduce a group of persons with different backgrounds with the viewer can identify with. In detail a small family that wants to fulfill their dream of home ownership. A student which about to graduate and is looking for the best option in terms of living.
+
+\subsection*{Give Rhytm}
+\noindent In order to give rhytm I would like to split up each Question into a section in the Storymap and follow a rhytm with first giving a intorduction why the question is important followed by the map and finishing with graphs that summarizes everything that could be seen in the map.
+
+\subsection*{Create A Little World}
+\noindent The rhytm and splitting the Storymap into section helps with building a little world in which the viewer can immerse.
+
+\subsection*{One Size Doesn't Fit All}
+\noindent This is one part that I will keep in mind to also keep mobile devices in mind.
+
+\subsection*{Use Large Scale But Also Big Scale Maps}
+\noindent This is one part which is harder since Statistik Austria only gives data on a state level. So I found one data source \href{https://bodenpreise.at}{\textit{https://bodenpreise.at}} which shows the land prices in a more detailed level. So it is possible to show small scale but also large scale maps.
+
+\subsection*{Use Active And Passive Maps}
+\noindent During the creation of the Stroymap I will keep that in mind to incorporate passive and active maps.
+
+\subsection*{Keep It Small}
+\noindent Content today should be fast and easily consumable. So I will try to keep it short and dont use that much text.
+
+\subsection*{Call To Action}
+	\noindent Call to action will be to visit:
+	\newline
+	\href{https://www.oesterreich.gv.at/themen/bauen\_wohnen\_und\_umwelt/wohnen.html}{https://www.oesterreich.gv.at/themen/bauen\_wohnen\_und\_umwelt/wohnen.html}
+	\noindent This site gives more information on house ownership, renting etc.
+
+
+\begin{thebibliography}{9}
+
+	\bibitem{Standard}
+	derstandard.at: \say{Wohneigentum wird in Österreich laut Studie immer mehr zum Luxusgut}
+	
+		\href{https://www.derstandard.at/story/2000138169246/oesterreichbei-den-wohnungseigentumspreisen-im-europaeischen-spitzenfeld}{https://www.derstandard.at/story/2000138169246/oesterreichbei-den-wohnungseigentumspreisen-im-europaeischen-spitzenfeld}
+
+	\bibitem{Deliotte}
+	Deloitte Property Index 2022,
+		\href{https://www2.deloitte.com/at/de/seiten/real-estate/artikel/deloitte-property-index-2022.html}{https://www2.deloitte.com/at/de/seiten/real-estate/artikel/deloitte-property-index-2022.html}
+
+
+	
+\end{thebibliography}
+
+
+\end{document}
