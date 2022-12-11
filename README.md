@@ -27,3 +27,12 @@ For visualizing the preprocessed data ARCGIS online as well as the Python packag
 
 ### Link to storymap
 https://storymaps.arcgis.com/stories/fe0e6622d4874d8f96c6eddcbf1e790d
+
+
+### References
+[1] https://www.derstandard.at/story/2000138169246/oesterreichbei-den-wohnungseigentumspreisen-im-europaeischen-spitzenfeld<br>
+[2] https://storymaps.arcgis.com/stories/fe0e6622d4874d8f96c6eddcbf1e790d<br>
+[3] https://www.statistik.at/<br>
+[4] https://www.bodenpreise.at/<br>
+
+
